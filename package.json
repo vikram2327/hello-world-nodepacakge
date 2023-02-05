@@ -4,7 +4,22 @@
   "description": "Hello World Node Package",
   "main": "index.js",
   "scripts": {
+    "start": "react-scripts start",
+    "sass": "node-sass src/lib/components/styles/main.scss src/App.css -w",
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
+    "eject": "react-scripts eject",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  },
+  "devDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12"
   },
   "repository": {
     "type": "git",

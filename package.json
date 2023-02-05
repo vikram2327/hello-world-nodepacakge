@@ -1,0 +1,20 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "Hello World Node Package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vikram2327/hello-world-nodepacakge.git"
+  },
+  "keywords": [
+    "hello",
+    "world",
+    "package"
+  ],
+  "author": "Vikram Pratap Singh",
+  "license": "MIT"
+}

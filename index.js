@@ -4,5 +4,5 @@ exports.printMsg = function () {
 
 exports.PrintMsg2 = function () {
   // export default function PrintMsg2() {
-  return <div>index</div>;
+  return (<div>index</div>);
 };
